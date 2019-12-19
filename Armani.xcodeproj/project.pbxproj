@@ -3,17 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B71E2D33DB843C741261C43 /* Pods_ArmaniTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E656E1396D037C0902E44CDB /* Pods_ArmaniTests.framework */; };
+		C803C34C40BB17C7B9FF1712 /* Pods_Armani.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752819FBF490B827CF3A7014 /* Pods_Armani.framework */; };
 		D86BB38723AA77E70089FBA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86BB38623AA77E70089FBA3 /* AppDelegate.swift */; };
-		D86BB38923AA77E70089FBA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86BB38823AA77E70089FBA3 /* SceneDelegate.swift */; };
-		D86BB38B23AA77E70089FBA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86BB38A23AA77E70089FBA3 /* ViewController.swift */; };
 		D86BB38E23AA77E70089FBA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D86BB38C23AA77E70089FBA3 /* Main.storyboard */; };
 		D86BB39023AA77E70089FBA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D86BB38F23AA77E70089FBA3 /* Assets.xcassets */; };
 		D86BB39323AA77E70089FBA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D86BB39123AA77E70089FBA3 /* LaunchScreen.storyboard */; };
 		D86BB39E23AA77E80089FBA3 /* ArmaniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86BB39D23AA77E80089FBA3 /* ArmaniTests.swift */; };
+		D86BB3AC23AA7B1E0089FBA3 /* CaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86BB3AB23AA7B1E0089FBA3 /* CaptureViewController.swift */; };
+		D86BB3AE23AA83C70089FBA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86BB3AD23AA83C70089FBA3 /* SceneDelegate.swift */; };
+		D86BB3B023AA9BF60089FBA3 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86BB3AF23AA9BF60089FBA3 /* Service.swift */; };
+		D86BB3B223AA9FE10089FBA3 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86BB3B123AA9FE10089FBA3 /* Product.swift */; };
+		D86BB3B623AAAD5D0089FBA3 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D86BB3B423AAAD5D0089FBA3 /* CustomCollectionViewCell.xib */; };
+		D86BB3B923AAB2A00089FBA3 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86BB3B823AAB2A00089FBA3 /* CustomCollectionViewCell.swift */; };
+		D86BB3BB23AAB4000089FBA3 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86BB3BA23AAB4000089FBA3 /* ProductViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +34,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22E282A8739B4C33CBBB23EA /* Pods-Armani.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Armani.release.xcconfig"; path = "Target Support Files/Pods-Armani/Pods-Armani.release.xcconfig"; sourceTree = "<group>"; };
+		7431FA86A2D42354ADCA5299 /* Pods-Armani.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Armani.debug.xcconfig"; path = "Target Support Files/Pods-Armani/Pods-Armani.debug.xcconfig"; sourceTree = "<group>"; };
+		752819FBF490B827CF3A7014 /* Pods_Armani.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Armani.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		878171B2641E05A536403A26 /* Pods-ArmaniTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArmaniTests.release.xcconfig"; path = "Target Support Files/Pods-ArmaniTests/Pods-ArmaniTests.release.xcconfig"; sourceTree = "<group>"; };
+		88A55B53048148F2EEB2F8CE /* Pods-ArmaniTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArmaniTests.debug.xcconfig"; path = "Target Support Files/Pods-ArmaniTests/Pods-ArmaniTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D86BB38323AA77E70089FBA3 /* Armani.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Armani.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86BB38623AA77E70089FBA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D86BB38823AA77E70089FBA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D86BB38A23AA77E70089FBA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D86BB38D23AA77E70089FBA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D86BB38F23AA77E70089FBA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D86BB39223AA77E70089FBA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +48,14 @@
 		D86BB39923AA77E80089FBA3 /* ArmaniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArmaniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86BB39D23AA77E80089FBA3 /* ArmaniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmaniTests.swift; sourceTree = "<group>"; };
 		D86BB39F23AA77E80089FBA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D86BB3AB23AA7B1E0089FBA3 /* CaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureViewController.swift; sourceTree = "<group>"; };
+		D86BB3AD23AA83C70089FBA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../../.Trash/SceneDelegate.swift; sourceTree = "<group>"; };
+		D86BB3AF23AA9BF60089FBA3 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		D86BB3B123AA9FE10089FBA3 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		D86BB3B423AAAD5D0089FBA3 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		D86BB3B823AAB2A00089FBA3 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		D86BB3BA23AAB4000089FBA3 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		E656E1396D037C0902E44CDB /* Pods_ArmaniTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArmaniTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C803C34C40BB17C7B9FF1712 /* Pods_Armani.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +71,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B71E2D33DB843C741261C43 /* Pods_ArmaniTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D663EB8077EBF29F658B840 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				752819FBF490B827CF3A7014 /* Pods_Armani.framework */,
+				E656E1396D037C0902E44CDB /* Pods_ArmaniTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D86BB37A23AA77E70089FBA3 = {
 			isa = PBXGroup;
 			children = (
 				D86BB38523AA77E70089FBA3 /* Armani */,
 				D86BB39C23AA77E80089FBA3 /* ArmaniTests */,
 				D86BB38423AA77E70089FBA3 /* Products */,
+				DF8E5311C50B129E64DCB65F /* Pods */,
+				6D663EB8077EBF29F658B840 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,8 +111,11 @@
 			isa = PBXGroup;
 			children = (
 				D86BB38623AA77E70089FBA3 /* AppDelegate.swift */,
-				D86BB38823AA77E70089FBA3 /* SceneDelegate.swift */,
-				D86BB38A23AA77E70089FBA3 /* ViewController.swift */,
+				D86BB3AD23AA83C70089FBA3 /* SceneDelegate.swift */,
+				D86BB3B723AAAD660089FBA3 /* Cells */,
+				D86BB3A923AA786E0089FBA3 /* ViewModel */,
+				D86BB3AA23AA787A0089FBA3 /* ViewControllers */,
+				D86BB3A823AA785F0089FBA3 /* Model */,
 				D86BB38C23AA77E70089FBA3 /* Main.storyboard */,
 				D86BB38F23AA77E70089FBA3 /* Assets.xcassets */,
 				D86BB39123AA77E70089FBA3 /* LaunchScreen.storyboard */,
@@ -99,6 +133,51 @@
 			path = ArmaniTests;
 			sourceTree = "<group>";
 		};
+		D86BB3A823AA785F0089FBA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D86BB3AF23AA9BF60089FBA3 /* Service.swift */,
+				D86BB3B123AA9FE10089FBA3 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D86BB3A923AA786E0089FBA3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D86BB3BA23AAB4000089FBA3 /* ProductViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D86BB3AA23AA787A0089FBA3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D86BB3AB23AA7B1E0089FBA3 /* CaptureViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D86BB3B723AAAD660089FBA3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D86BB3B423AAAD5D0089FBA3 /* CustomCollectionViewCell.xib */,
+				D86BB3B823AAB2A00089FBA3 /* CustomCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DF8E5311C50B129E64DCB65F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7431FA86A2D42354ADCA5299 /* Pods-Armani.debug.xcconfig */,
+				22E282A8739B4C33CBBB23EA /* Pods-Armani.release.xcconfig */,
+				88A55B53048148F2EEB2F8CE /* Pods-ArmaniTests.debug.xcconfig */,
+				878171B2641E05A536403A26 /* Pods-ArmaniTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D86BB3A223AA77E80089FBA3 /* Build configuration list for PBXNativeTarget "Armani" */;
 			buildPhases = (
+				4B56D4CD4B659622AB11EBD8 /* [CP] Check Pods Manifest.lock */,
 				D86BB37F23AA77E70089FBA3 /* Sources */,
 				D86BB38023AA77E70089FBA3 /* Frameworks */,
 				D86BB38123AA77E70089FBA3 /* Resources */,
+				6BB297E85E0F5FFB969D10B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D86BB3A523AA77E80089FBA3 /* Build configuration list for PBXNativeTarget "ArmaniTests" */;
 			buildPhases = (
+				D5948C14E1819EBDCD010C94 /* [CP] Check Pods Manifest.lock */,
 				D86BB39523AA77E80089FBA3 /* Sources */,
 				D86BB39623AA77E80089FBA3 /* Frameworks */,
 				D86BB39723AA77E80089FBA3 /* Resources */,
@@ -182,6 +264,7 @@
 			files = (
 				D86BB39323AA77E70089FBA3 /* LaunchScreen.storyboard in Resources */,
 				D86BB39023AA77E70089FBA3 /* Assets.xcassets in Resources */,
+				D86BB3B623AAAD5D0089FBA3 /* CustomCollectionViewCell.xib in Resources */,
 				D86BB38E23AA77E70089FBA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,14 +278,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B56D4CD4B659622AB11EBD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Armani-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BB297E85E0F5FFB969D10B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Armani/Pods-Armani-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Armani/Pods-Armani-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Armani/Pods-Armani-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5948C14E1819EBDCD010C94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArmaniTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D86BB37F23AA77E70089FBA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D86BB38B23AA77E70089FBA3 /* ViewController.swift in Sources */,
+				D86BB3BB23AAB4000089FBA3 /* ProductViewModel.swift in Sources */,
 				D86BB38723AA77E70089FBA3 /* AppDelegate.swift in Sources */,
-				D86BB38923AA77E70089FBA3 /* SceneDelegate.swift in Sources */,
+				D86BB3B923AAB2A00089FBA3 /* CustomCollectionViewCell.swift in Sources */,
+				D86BB3B023AA9BF60089FBA3 /* Service.swift in Sources */,
+				D86BB3B223AA9FE10089FBA3 /* Product.swift in Sources */,
+				D86BB3AC23AA7B1E0089FBA3 /* CaptureViewController.swift in Sources */,
+				D86BB3AE23AA83C70089FBA3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +511,7 @@
 		};
 		D86BB3A323AA77E80089FBA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7431FA86A2D42354ADCA5299 /* Pods-Armani.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +530,7 @@
 		};
 		D86BB3A423AA77E80089FBA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22E282A8739B4C33CBBB23EA /* Pods-Armani.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +549,7 @@
 		};
 		D86BB3A623AA77E80089FBA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88A55B53048148F2EEB2F8CE /* Pods-ArmaniTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +572,7 @@
 		};
 		D86BB3A723AA77E80089FBA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 878171B2641E05A536403A26 /* Pods-ArmaniTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

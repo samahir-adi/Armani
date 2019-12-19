@@ -144,6 +144,7 @@ extension CaptureViewController: UICollectionViewDelegate, UICollectionViewDataS
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let i = indexPath.row
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! CustomCollectionViewCell
+        
         cell.cellLabel.text = ProductViewModel.shared.productArray?[i].name?.enUS
         
         if let imageString =  ProductViewModel.shared.productArray?[i].variants?.first?.images?.packshot?.first?.original, let url = URL(string: imageString)   {   cell.cellImageView.kf.setImage(with: url)
@@ -169,7 +170,6 @@ extension CaptureViewController: UICollectionViewDelegate, UICollectionViewDataS
     }
     
     func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
-        collectionView.cellForItem(at: indexPath)?.backgroundColor = .clear
         let cell = collectionView.cellForItem(at: indexPath)
         cell?.transform = .identity
     }

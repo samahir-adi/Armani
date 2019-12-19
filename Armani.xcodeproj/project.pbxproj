@@ -110,13 +110,13 @@
 		D86BB38523AA77E70089FBA3 /* Armani */ = {
 			isa = PBXGroup;
 			children = (
+				D86BB38C23AA77E70089FBA3 /* Main.storyboard */,
 				D86BB38623AA77E70089FBA3 /* AppDelegate.swift */,
 				D86BB3AD23AA83C70089FBA3 /* SceneDelegate.swift */,
 				D86BB3B723AAAD660089FBA3 /* Cells */,
 				D86BB3A923AA786E0089FBA3 /* ViewModel */,
 				D86BB3AA23AA787A0089FBA3 /* ViewControllers */,
 				D86BB3A823AA785F0089FBA3 /* Model */,
-				D86BB38C23AA77E70089FBA3 /* Main.storyboard */,
 				D86BB38F23AA77E70089FBA3 /* Assets.xcassets */,
 				D86BB39123AA77E70089FBA3 /* LaunchScreen.storyboard */,
 				D86BB39423AA77E70089FBA3 /* Info.plist */,
